@@ -3,7 +3,7 @@ import { styles } from "./styles/styles";
 
 const LoanScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>Loan Screen</Text>
     </View>
   )

@@ -3,7 +3,7 @@ import { styles } from "./styles/styles";
 
 const BudgetScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>Budget Screen</Text>
     </View>
   )

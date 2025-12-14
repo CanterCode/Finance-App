@@ -3,7 +3,7 @@ import { styles } from "./styles/styles";
 
 const CalculatorScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>Calculator</Text>
     </View>
   )
