@@ -1,10 +1,10 @@
 import { Text, View } from 'react-native'
-import React from 'react'
+import { styles } from "./styles/styles";
 
 const CalculatorScreen = () => {
   return (
     <View>
-      <Text style={}>Calculator</Text>
+      <Text style={styles.title}>Calculator</Text>
     </View>
   )
 }
