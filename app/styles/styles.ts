@@ -5,8 +5,14 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 24,
-    paddingTop: 64,
-    paddingBottom: 64,
+    paddingTop: 36,
+    paddingBottom: 72,
+    backgroundColor: colors.background,
+  },
+  genieContainer: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingBottom: 72,
     backgroundColor: colors.background,
   },
   containerTwo: {
@@ -15,6 +21,13 @@ export const styles = StyleSheet.create({
   title: {
     color: colors.primary,
     fontSize: 32,
+    fontWeight: "700",
+    textAlign: "center",
+    marginBottom: 12,
+  },
+  titleSmall: {
+    color: colors.primary,
+    fontSize: 24,
     fontWeight: "700",
     textAlign: "center",
     marginBottom: 12,
@@ -105,4 +118,21 @@ export const styles = StyleSheet.create({
     fontWeight: "500",
     color: colors.text,
   },
+  tipGenieImage: {
+    width: 260,
+    height: 260,
+    resizeMode: "contain",
+    alignSelf: "center",
+  },
+  stepsContainer: {
+  flexDirection: "row",
+  justifyContent: "space-between",
+  width: "100%",
+  maxWidth: 360, // keeps it centered nicely
+},
+step: {
+  fontSize: 16,
+  marginBottom: 8,
+  color: "black",
+},
 });

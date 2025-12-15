@@ -7,7 +7,7 @@ export const colors = {
   secondary: "#C9A959",     // Gold-ish
 
   // Backgrounds
-  background: "#CFCECA",    // Light Gray-Beige
+  background: "#e7e6e2ff",    // Light Gray-Beige
   card: "#FFFFFF",          // Optional white for cards or panels
 
   // Text
