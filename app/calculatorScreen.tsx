@@ -6,7 +6,7 @@ const CalculatorScreen = () => {
   return (
     <View style={styles.containerTwo}>
       <View style={styles.calcDisplay}>
-        <Text style={styles.calcResult}>3223</Text>
+        <Text style={styles.calcResult}>07734</Text>
       </View>
       <View style={styles.calcKeypad}>
         <Button title="C" type="top" />
