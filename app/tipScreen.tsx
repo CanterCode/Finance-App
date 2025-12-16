@@ -2,6 +2,7 @@ import { Text, View, Image } from "react-native";
 import { styles } from "./styles/styles";
 
 const tipGenieImage = require("../assets/images/tipGenie.png");
+const genieOne = require("../assets/images/genieOne.png")
 
 const TipScreen = () => {
   return (
